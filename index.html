@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A student portfolio and cloud computing project.">
+  <title>CloudPortfolio | Student Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a class="logo" href="#home">CloudPortfolio</a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <p class="tag">CLOUD COMPUTING MINI-PROJECT</p>
+      <h1>Welcome to My <span>Digital World</span></h1>
+      <p class="intro">
+        Exploring cloud storage, content delivery networks,
+        website hosting and secure web technologies.
+      </p>
+      <a class="button" href="#project">Explore My Project</a>
+    </section>
+
+    <section class="section" id="about">
+      <h2>About This Website</h2>
+      <p>
+        This student portfolio demonstrates how a static website
+        can be built using HTML, CSS and JavaScript and hosted
+        on a cloud storage platform.
+      </p>
+    </section>
+
+    <section class="section" id="project">
+      <h2>My Cloud Project</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Cloud Storage</h3>
+          <p>Store and serve website files using cloud object storage.</p>
+        </article>
+        <article class="card">
+          <h3>Content Delivery Network</h3>
+          <p>Learn how cached content reaches users around the world.</p>
+        </article>
+        <article class="card">
+          <h3>HTTPS Security</h3>
+          <p>Explore secure connections using HTTPS and TLS.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <h2>Contact</h2>
+      <p>This portfolio was created as a Cloud Computing academic project.</p>
+      <button class="button" id="messageButton">Say Hello</button>
+      <p id="message" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>CloudPortfolio | Cloud Computing Mini-Project</p>
+    <p>Developed by: Priyanka Bhujbal</p>
+    <p>&copy; <span id="year"></span> Student Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
